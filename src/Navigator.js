@@ -4,6 +4,7 @@ import {createAppContainer} from 'react-navigation';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 import Feed from './screens/Feed';
+import AddPhoto from './screens/AddPhoto';
 
 const MenuRoutes = createMaterialBottomTabNavigator({
     Feed: {
@@ -17,7 +18,7 @@ const MenuRoutes = createMaterialBottomTabNavigator({
     },
     Add: {
         name: 'AddPhoto',
-        screen: Feed,
+        screen: AddPhoto,
         navigationOptions: {
             title: 'Add Picture',
             tabBarIcon: ({tintColor}) =>
