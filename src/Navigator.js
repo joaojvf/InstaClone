@@ -1,5 +1,5 @@
 import React from 'react';
-import {createBottomTabNavigator} from 'react-navigation-tabs';
+import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 import Feed from './screens/Feed';
@@ -41,6 +41,6 @@ const MenuConfig = {
     }
 };
 
-const MenuNavigator = createBottomTabNavigator(MenuRoutes, MenuConfig);
+const MenuNavigator = createMaterialBottomTabNavigator(MenuRoutes, MenuConfig);
 
 export default MenuNavigator;
