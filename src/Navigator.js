@@ -1,10 +1,11 @@
 import React from 'react';
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
+import {createAppContainer} from 'react-navigation';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 import Feed from './screens/Feed';
 
-const MenuRoutes = {
+const MenuRoutes = createMaterialBottomTabNavigator({
     Feed: {
         name: 'Feed',
         screen: Feed,
@@ -32,15 +33,9 @@ const MenuRoutes = {
                 <Icon name = 'user' size={30} color={tintColor} />
         }
     }
-};
+});
 
-const MenuConfig = {
-    initialRouteName: 'Feed',
-    tabBarOptions: {
-        showLabel: false,
-    }
-};
 
-const MenuNavigator = createMaterialBottomTabNavigator(MenuRoutes, MenuConfig);
 
-export default MenuNavigator;
+const App =  createAppContainer(MenuRoutes)
+export default App;
