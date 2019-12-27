@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { login } from '../store/actions/user'
+
 import {
     View,
     Text,
@@ -9,15 +12,17 @@ import {
 
 class Login extends Component {
     state = {
+        name: 'Temporario',
         email: '',
         password: ''
 
     };
 
     login = () => {
+        this.props.onLogin({ ...this.state })
         this.props.navigation.navigate('Profile')
     }
-    
+
     render() {
         return (
             <View style={styles.container}>
@@ -27,11 +32,11 @@ class Login extends Component {
                     onChangeText={email => this.setState({ email })} />
                 <TextInput placeholder='Senha' style={styles.input}
                     secureTextEntry={true} value={this.state.password}
-                    onChangeText={email => this.setState({ password })} />
+                    onChangeText={password => this.setState({ password })} />
                 <TouchableOpacity onPress={this.login} style={styles.buttom}>
                     <Text style={styles.buttomText}>Login</Text>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={() => { 
+                <TouchableOpacity onPress={() => {
                     this.props.navigation.navigate('Register')
                 }} style={styles.buttom}>
                     <Text style={styles.buttomText}>Criar nova Conta</Text>
@@ -40,6 +45,7 @@ class Login extends Component {
         )
     }
 }
+
 
 const styles = StyleSheet.create({
     container: {
@@ -66,4 +72,10 @@ const styles = StyleSheet.create({
     }
 });
 
-export default Login;
+const mapDispatchToProps = dispatch => {
+    return {
+        onLogin: user => dispatch(login(user))
+    }
+}
+
+export default connect(null, mapDispatchToProps)(Login)
