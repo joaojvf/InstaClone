@@ -42,12 +42,12 @@ class AddPhoto extends Component {
             image: this.state.image,
             comments: [{
                 nickname: this.props.name,
-                comment: this.props.comment
+                comment: this.state.comment
             }]
         })
 
         this.setState({image: null, comment: ''})
-        this.props.navigation.navigate('Post')
+        this.props.navigation.navigate('Feed')
     }
 
 

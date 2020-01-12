@@ -1,4 +1,7 @@
-import { USER_LOGGED_IN, USER_LOGGED_OUT } from '../actions/actionTypes'
+import {
+    USER_LOGGED_IN,
+    USER_LOGGED_OUT
+} from '../actions/actionTypes'
 
 const initialState = {
     name: null,
@@ -6,7 +9,7 @@ const initialState = {
 }
 
 const reducer = (state = initialState, action) => {
-    switch(action.type) {
+    switch (action.type) {
         case USER_LOGGED_IN:
             return {
                 ...state,
@@ -19,7 +22,7 @@ const reducer = (state = initialState, action) => {
                 name: null,
                 email: null
             }
-        default: 
+        default:
             return state
     }
 }

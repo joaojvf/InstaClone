@@ -9,10 +9,10 @@ const initialState = {
             image: require('../../../assets/imgs/fence.jpg'),
             comments: [{
                 nickname: 'John Ray Sheldon',
-                comment: 'Stunning!'
+                comment: 'Stunning!!!!'
             }, {
                 nickname: 'Ana Julia Arruda',
-                comment: 'Foto Linda! Onde foi tirada?'
+                comment: 'Foto Linda! Onde foi tirada????'
             }]
         },
         {
@@ -32,7 +32,7 @@ const reducer = (state = initialState, action) => {
                 posts: state.posts.concat({
                     ...action.payload
                 })
-            }
+            };
         default:
             return state;
     }
