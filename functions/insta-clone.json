@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "insta-clone-6e60e",
+  "private_key_id": "ada766312ba93df3c5dde0250adf8c3bf29db93f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDf5jzbHSpR60L2\nv8JW7BEtEbNSsUhIRZBo5lTdsD7VKAYktKg5G5ZztzIGys9razLYIa/IXu+D79XM\nFezZ7oJCUllCxC/SB0gHeHA/X9OyYaaXh9n1zRRs+1u0J67m/sGnyVRbwfgxYUsB\nk8oe/pIV60X/p6UFozZOXI6yQdpVuGBgRZBN/HenwgV8FVCzWjwxwcimODJkf0VE\n1qdu61DpAnvNk/pciSvS9eNBvQwLaHOj3yraBgVlf4tLzXL2G7iatU3H5WZz/BYZ\noxI21yPIdvzPoPF6mr5QNu7F+0yx6SCB9X4fb6dc9hhfoYer+Onu672XDedcZylX\ndTXxPJDNAgMBAAECggEAA8f016Nws0T0ksuuub6PVLJDk74sMRJBq8/V949yJDHi\nlqyZWauKWSZrGRvEMHV1PJqnCAx4YYNDmkh1gUGqn/mZicvb3eFjGUMyrBNPdSf6\ngv0XlHPT6Do/dHWmGb8MIKwA+XK3YQgaVuq6w1a7u1SHkFdxrTxyHpUoEMEVcZSd\nLBEP4/xTicQORUlABsWpFoeKTEW4nPq3/9kVJx70EEi/nAkZeG+TwKAEQRec/nv4\ny90glVpZklV39yhCuzKQDXynJhFIn0IOn18jprPOPaF8uOQyFF+kApuRuPMux0yO\nAs0zWL6o7EqXRYtPU/jkvt55BVRqtNcwDHQ0GpYrKQKBgQD+kfkpRR4N4Zfi0RKo\ns1J7c39l0cuQvUSIiINpYSVeDFiE+scMiQauvDFtx7GUNcq/ZPDNrNrQwkD2c1pS\n0dYsssErlzBkKuJZaMQ9RTqH3BCkEHTuVcSMARu/iDiYChMi2T2FeXNpgEBxxH7t\nzu+ptui8NtxQhPUMTKlzMe5wmQKBgQDhKCpLYd9Ga6THKhv4UQ9560bg75k+Fi4x\nlqksT8l9w+ZNYe6GbGSqCBMwdseAXsobra/7G0IBw+hKzED1IMq4035ANZSGLeFi\nJnzeHfmbpiUm3sOy+s2qPhYxYFzvaXqrDrv8IXHD28f3pe4Q3SiK7adROQBev2oL\nFUMaLCFeVQKBgC0KEIYvt1iHYEL98IouZ9p1ncWa76QlCFoLpQxg5qaUEpk8cTkT\niT4jB6+/k/h/5+Yi6sPI4FHs/GdeE03x2C3CVpDqx+IBAFkHQyj/9ZIR6lPMoZOF\nUyfeDlW9uR2VMruIqezShwvUaBJ4zGgwo5BoTxb1sdcBHwXVDmnWHLSJAoGBAJyQ\n1Xg9woixaY+k1HZDx8M7u7nGYoUt30lUPqc1hCMUCh1dMAQBc65Ylx9oOSomv9un\nV2wBdFDN7cW1aqYJ+22yg2Qa3gC//q3FnabGqT92tPbmiKb4h/MN4VjMbVN9wXMZ\nd9bHWtibB95JX9YSM5MH1wU/4eYArLiwPE0CyuFRAoGBAJRRNtTpJx3g9TgTe/F1\nir6crJHxqKXOu69aH/c3tUFZm0pIE8lMYfXFkX048DrqWJfVk0dRMsNz2TzoPr4e\nZcYeDwriTzwc7SWpiFOxxEceCP3QjieUlqXobyEj4n7w0UMVetAn1v8l/a9GzNa0\n3wHa+hQaoESiwOmVyU2Rgr7U\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-616k6@insta-clone-6e60e.iam.gserviceaccount.com",
+  "client_id": "104809868258274567952",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-616k6%40insta-clone-6e60e.iam.gserviceaccount.com"
+}
