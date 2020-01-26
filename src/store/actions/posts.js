@@ -15,7 +15,7 @@ export const addPost = post => {
         })
             .catch(err => console.log("Erro no post Firebase", err))
             .then(res => {
-                post.image = resp.data.imageUrl
+                post.image = res.data.imageUrl
                 axios.post('/posts.json', { ...post })
                     .catch(err => console.log('Entrou no catch: ', err))
                     .then(res => console.log('Entrou no than:', res))
